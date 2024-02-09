@@ -7,7 +7,7 @@ Parameters:
     Type: String
     Description: The ARN of the IAM user or Role to be used as the OpenSearch Serverless administrator
     MinLength: 20
-    AllowedPattern: ^arn:[\w]*:iam::\d{12}:[\w./]*$
+    AllowedPattern: ^arn:[\w]*:iam::\d{12}:[\w.,-/]*$
 
 Resources:
   
