@@ -25,7 +25,7 @@ The role you use to run the notebook should have the following minimum permissio
         {
             "Effect": "Allow",
             "Action": [
-                "bedrock:*"
+                "bedrock:InvokeModel"
             ],
             "Resource": [
                 "arn:aws:bedrock:REGION::foundation-model/*"
